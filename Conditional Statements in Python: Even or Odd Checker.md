@@ -1,23 +1,29 @@
-# Built-in Functions -Binary Conversion Using Built-in Functions in Python
+# Conditional Statements in Python: Even or Odd Checker
 
 ## 🎯 Aim
-To write a Python program to convert the number **16** into its **binary representation** using built-in Python functions.
+To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
 ## 🧠 Algorithm
-1. Assign the value `16` to a variable `a`.
-2. Use the built-in `bin()` function to convert the number to binary.
-3. Print the result.
+1. Get an input from the user.
+2. Convert the input to an integer and store it in a variable `a`.
+3. Use the modulo operator `%` to check if `a % 2 == 0`.
+   - If true, print `"EVEN"`.
+   - Else, print `"ODD"`.
+4. End the program.
 
 ## 🧾 Program
 ```
-a = 16
-print(bin(a))
+a=int(input())
+if a%2==0:
+    print("EVEN")
+else:
+    print("ODD")
 ```
 
 
 ## Output
-<img width="361" height="150" alt="image" src="https://github.com/user-attachments/assets/24bc2abb-0085-43b4-a454-6b80ed186e20" />
+<img width="1128" height="611" alt="image" src="https://github.com/user-attachments/assets/5c3329e9-1ac5-488c-8be3-89741d9a990f" />
 
 
 ## Result
-The program successfully converts the number 16 into its binary representation and prints it.
+Thus,the Python program to check whether the given number is even or odd using if...else statements is created successfully.
